@@ -1,4 +1,12 @@
 ## 2024-06-02
+### Merge two dictionaries
+```Pythonmerged_dict = {**dict1, **dict2}```Python
+
+Example:
+```dict1 = {'a': 1}; dict2 = {'b': 2}; merged_dict = {**dict1, **dict2}```
+
+
+## 2024-06-02
 ### Check if a string is a palindrome
 ```is_palindrome = lambda x: x == x[::-1]```
 Example:
