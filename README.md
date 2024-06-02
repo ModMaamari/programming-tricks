@@ -1,4 +1,16 @@
 ## 2024-06-02
+### Read a file into a list of lines
+```Python
+lines = open('file.txt').readlines()
+```
+
+Example:
+```Python
+lines = open('example.txt').readlines()
+```
+
+
+## 2024-06-02
 ### Merge two dictionaries
 ```Pythonmerged_dict = {**dict1, **dict2}```Python
 
