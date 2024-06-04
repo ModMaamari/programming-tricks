@@ -1,3 +1,15 @@
+## 2024-06-05
+### Reverse a list
+```Python
+reversed_list = list[::-1]
+```
+
+Example:
+```Python
+reversed_list = [1, 2, 3][::-1]
+```
+
+
 ## 2024-06-03
 ### Check if all elements in a list are unique
 ```Python
