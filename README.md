@@ -1,3 +1,15 @@
+## 2024-06-06
+### Transpose a matrix
+```Python
+transposed = list(zip(*matrix))
+```
+
+Example:
+```Python
+transposed = list(zip(*[[1, 2], [3, 4]]))
+```
+
+
 ## 2024-06-05
 ### Reverse a list
 ```Python
