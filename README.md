@@ -1,3 +1,15 @@
+## 2024-06-09
+### Remove duplicates from a list while preserving order
+```Python
+seen = set(); no_duplicates = [x for x in list if not (x in seen or seen.add(x))]
+```
+
+Example:
+```Python
+seen = set(); no_duplicates = [x for x in [1, 2, 2, 3, 1] if not (x in seen or seen.add(x))]
+```
+
+
 ## 2024-06-06
 ### Transpose a matrix
 ```Python
