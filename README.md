@@ -1,3 +1,15 @@
+## 2024-06-10
+### Convert a list of tuples into separate lists
+```Python
+list1, list2 = zip(*list_of_tuples)
+```
+
+Example:
+```Python
+list1, list2 = zip(*[(1, 'a'), (2, 'b')])
+```
+
+
 ## 2024-06-09
 ### Remove duplicates from a list while preserving order
 ```Python
