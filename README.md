@@ -1,3 +1,15 @@
+## 2024-06-11
+### Find the intersection of two lists
+```Python
+intersection = list(set(list1) & set(list2))
+```
+
+Example:
+```Python
+intersection = list(set([1, 2, 3]) & set([2, 3, 4]))
+```
+
+
 ## 2024-06-10
 ### Convert a list of tuples into separate lists
 ```Python
