@@ -1,4 +1,16 @@
 ## 2024-06-11
+### Use a dictionary to switch cases
+```Python
+def switch(case): return {'a': 1, 'b': 2}.get(case, 0)
+```
+
+Example:
+```Python
+switch('a')
+```
+
+
+## 2024-06-11
 ### Find the intersection of two lists
 ```Python
 intersection = list(set(list1) & set(list2))
