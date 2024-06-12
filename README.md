@@ -1,4 +1,16 @@
 ## 2024-06-12
+### Iterate over a list with an index
+```Python
+for index, value in enumerate(list):
+```
+
+Example:
+```Python
+for index, value in enumerate(['a', 'b']):
+```
+
+
+## 2024-06-12
 ### Sort a dictionary by value
 ```Python
 sorted_dict = {k: v for k, v in sorted(dict.items(), key=lambda item: item[1])}
