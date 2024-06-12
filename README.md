@@ -1,3 +1,15 @@
+## 2024-06-12
+### Sort a dictionary by value
+```Python
+sorted_dict = {k: v for k, v in sorted(dict.items(), key=lambda item: item[1])}
+```
+
+Example:
+```Python
+sorted_dict = {k: v for k, v in sorted({'a': 3, 'b': 1}.items(), key=lambda item: item[1])}
+```
+
+
 ## 2024-06-11
 ### Use a dictionary to switch cases
 ```Python
