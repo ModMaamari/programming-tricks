@@ -1,4 +1,16 @@
 ## 2024-06-12
+### Find the longest word in a sentence
+```Python
+longest_word = max(sentence.split(), key=len)
+```
+
+Example:
+```Python
+longest_word = max('This is a test sentence'.split(), key=len)
+```
+
+
+## 2024-06-12
 ### Iterate over a list with an index
 ```Python
 for index, value in enumerate(list):
