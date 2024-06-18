@@ -1,3 +1,15 @@
+## 2024-06-18
+### Check if a string contains a substring
+```Python
+contains = substring in string
+```
+
+Example:
+```Python
+contains = 'test' in 'This is a test'
+```
+
+
 ## 2024-06-15
 ### Find the longest word in a sentence
 ```Python
