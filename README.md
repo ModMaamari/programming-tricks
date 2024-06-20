@@ -1,3 +1,15 @@
+## 2024-06-20
+### Calculate the factorial of a number using recursion
+```Python
+def factorial(n): return 1 if n == 0 else n * factorial(n - 1)
+```
+
+Example:
+```Python
+factorial(5)
+```
+
+
 ## 2024-06-19
 ### Calculate the factorial of a number using recursion
 ```Python
