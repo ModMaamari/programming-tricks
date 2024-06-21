@@ -1,3 +1,15 @@
+## 2024-06-21
+### Find the greatest common divisor of two numbers
+```Python
+import math; gcd = math.gcd(a, b)
+```
+
+Example:
+```Python
+gcd = math.gcd(8, 12)
+```
+
+
 ## 2024-06-20
 ### Calculate the factorial of a number using recursion
 ```Python
