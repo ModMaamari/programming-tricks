@@ -1,3 +1,15 @@
+## 2024-06-23
+### Check if a number is prime
+```Python
+is_prime = lambda x: all(x % i != 0 for i in range(2, int(x**0.5) + 1))
+```
+
+Example:
+```Python
+is_prime(29)
+```
+
+
 ## 2024-06-21
 ### Find the greatest common divisor of two numbers
 ```Python
