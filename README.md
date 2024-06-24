@@ -1,3 +1,15 @@
+## 2024-06-25
+### Measure the execution time of a code block
+```Python
+import time; start = time.time(); # your code here; end = time.time(); print(end - start)
+```
+
+Example:
+```Python
+import time; start = time.time(); sum(range(100000)); end = time.time(); print(end - start)
+```
+
+
 ## 2024-06-24
 ### Measure the execution time of a code block
 ```Python
