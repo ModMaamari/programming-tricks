@@ -1,3 +1,15 @@
+## 2024-06-24
+### Generate Fibonacci sequence
+```Python
+fib = lambda n: n if n <= 1 else fib(n-1) + fib(n-2)
+```
+
+Example:
+```Python
+fib(10)
+```
+
+
 ## 2024-06-23
 ### Check if a number is prime
 ```Python
