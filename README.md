@@ -1,4 +1,16 @@
 ## 2024-06-24
+### Measure the execution time of a code block
+```Python
+import time; start = time.time(); # your code here; end = time.time(); print(end - start)
+```
+
+Example:
+```Python
+import time; start = time.time(); sum(range(100000)); end = time.time(); print(end - start)
+```
+
+
+## 2024-06-24
 ### Generate Fibonacci sequence
 ```Python
 fib = lambda n: n if n <= 1 else fib(n-1) + fib(n-2)
