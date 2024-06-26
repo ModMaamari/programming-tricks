@@ -1,3 +1,15 @@
+## 2024-06-26
+### Count the frequency of elements in a list
+```Python
+from collections import Counter; freq = Counter(list)
+```
+
+Example:
+```Python
+from collections import Counter; freq = Counter([1, 2, 2, 3, 3, 3])
+```
+
+
 ## 2024-06-25
 ### Measure the execution time of a code block
 ```Python
