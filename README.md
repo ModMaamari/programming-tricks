@@ -1,3 +1,15 @@
+## 2024-06-27
+### Find the n largest elements in a list
+```Python
+import heapq; n_largest = heapq.nlargest(n, list)
+```
+
+Example:
+```Python
+import heapq; n_largest = heapq.nlargest(3, [1, 3, 2, 5, 4])
+```
+
+
 ## 2024-06-26
 ### Count the frequency of elements in a list
 ```Python
