@@ -1,3 +1,15 @@
+## 2024-06-28
+### Group elements of a list based on a condition
+```Python
+from itertools import groupby; grouped = {k: list(v) for k, v in groupby(sorted(list, key=condition), key=condition)}
+```
+
+Example:
+```Python
+from itertools import groupby; grouped = {k: list(v) for k, v in groupby(sorted(['a', 'aa', 'b', 'bb'], key=len), key=len)}
+```
+
+
 ## 2024-06-27
 ### Find the n largest elements in a list
 ```Python
