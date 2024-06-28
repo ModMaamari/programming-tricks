@@ -1,4 +1,16 @@
 ## 2024-06-28
+### Find the mode of a list
+```Python
+mode = max(set(list), key=list.count)
+```
+
+Example:
+```Python
+mode = max(set([1, 2, 2, 3, 3, 3]), key=[1, 2, 2, 3, 3, 3].count)
+```
+
+
+## 2024-06-28
 ### Group elements of a list based on a condition
 ```Python
 from itertools import groupby; grouped = {k: list(v) for k, v in groupby(sorted(list, key=condition), key=condition)}
