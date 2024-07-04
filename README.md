@@ -1,3 +1,15 @@
+## 2024-07-04
+### Find the mode of a list
+```Python
+mode = max(set(list), key=list.count)
+```
+
+Example:
+```Python
+mode = max(set([1, 2, 2, 3, 3, 3]), key=[1, 2, 2, 3, 3, 3].count)
+```
+
+
 ## 2024-06-28
 ### Find the mode of a list
 ```Python
