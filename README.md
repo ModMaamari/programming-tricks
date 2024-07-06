@@ -1,4 +1,16 @@
 ## 2024-07-06
+### Create a dictionary from two lists
+```Python
+dictionary = dict(zip(list1, list2))
+```
+
+Example:
+```Python
+dictionary = dict(zip(['a', 'b'], [1, 2]))
+```
+
+
+## 2024-07-06
 ### Print a list of objects in tabular format
 ```Python
 from tabulate import tabulate; print(tabulate(list_of_dicts, headers='keys'))
