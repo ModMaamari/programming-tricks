@@ -1,3 +1,15 @@
+## 2024-07-06
+### Print a list of objects in tabular format
+```Python
+from tabulate import tabulate; print(tabulate(list_of_dicts, headers='keys'))
+```
+
+Example:
+```Python
+from tabulate import tabulate; print(tabulate([{'a': 1, 'b': 2}, {'a': 3, 'b': 4}], headers='keys'))
+```
+
+
 ## 2024-07-04
 ### Find the mode of a list
 ```Python
